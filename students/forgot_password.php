@@ -1,0 +1,1 @@
+Please go to Admin office to reset your password.

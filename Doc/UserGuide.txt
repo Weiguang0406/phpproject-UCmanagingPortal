@@ -1,0 +1,22 @@
+How to run this script
+
+     1.Download the zip file
+
+     2.Extract the file and copy "php_project" folder
+
+     3.Paste inside root directory(for xampp xampp/htdocs)
+
+     4.Open PHPMyAdmin (http://localhost/phpmyadmin)
+
+     5.Create a database with name studentms
+
+     6.Import SQLFiles/versiononremoteserver.sql file(given inside the zip package in SQL file folder)
+
+     7. keep 1.jpg,2.jpg,3.jpg in uploads only. Those for 3 jpg file is for 3 default users in db.
+
+     8.Run the script http://localhost/index.html
+
+     9. Default Test User:
+                       xu/xu as a teacher
+                       yang/yang as admin
+                       huang/huang as student

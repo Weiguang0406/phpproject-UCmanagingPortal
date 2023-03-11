@@ -1,0 +1,45 @@
+Regex Rules: 
+1. teacher name and student name: (Jane Wang)
+Captial or lower case, letter only, one space, no digit, up to 20 letters. 
+'/^[a-zA-Z ]{1,20}$/'
+
+2. username : (user2)
+Captial or lower case, letter and digitals, up to 20.
+'/^[a-zA-Z0-9]{1,20}$/'
+
+3. course_id:(CSC101)
+Captial letter and digit, starting with 3 letters , following with 3 digit.
+'/^[A-Z]{3}[0-9]{3}$/'
+
+4. course_name :(Java Script Level1)
+Captial or lower case, letter and digits, up to 20.
+'/^[a-zA-Z0-9]{1,20}$/'
+
+5. department :
+Accounting
+History
+Chemistry
+Computer Science
+English
+Telecomme Communication
+
+6. Telephone (1234567890)
+10 digitals only
+'/^[0-9]{10}$/'
+
+7. Address: (1113 Brant Ave)
+auto generate canada regex address.
+'/^\d+\s+[a-zA-Z0-9\s]+(Ave|road|street|avenue|drive|boulevard|way|court|crescent|circle|lane|parkway|place|square|trail)\s*$/'
+
+8. Email：(user@gmail.com)
+auto generate canada regex address.
+'/^\d+\s[a-zA-Z]+\s[a-zA-Z]+/'
+//   ---danli
+/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+
+9. Password 
+Captial or lower case, letter,digit.at least 6. 
+'/^[a-zA-Z0-9]{6,}$/'
+
+
+

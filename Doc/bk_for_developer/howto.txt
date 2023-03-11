@@ -1,0 +1,9 @@
+
+
+How to complie and test GADMIN app:
+
+1. Download the zip file;
+2. Place the extracted fold under c:/xammp/htdoc;
+3. Start your Apache and SQL local server;
+4. On the Xammp control panel >> click on the SQL > Admin to go to SQL adminpage or  go to this url in browser: http://localhost/phpmyadmin/;
+5. Import 
